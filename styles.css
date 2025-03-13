@@ -1,0 +1,141 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    align-items: baseline;
+    margin: 0 300px;
+}
+
+.header h1{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    gap: 16px;
+}
+
+.header a{
+    text-decoration: none;
+    
+}
+
+.header a, .hero p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 300px;
+    gap: 50px;
+}
+
+.hero-text h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-image {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    color: white;
+    background-color: #2883F6;
+    border-radius: 4px;
+    padding: 8px 32px;
+    border: #2883F6;
+}
+
+.section-one {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 300px 100px;
+}
+
+.section-one h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.contents {
+    display: flex;
+    gap: 64px;
+}
+
+.contents p {
+    width: 200px;
+}
+
+.section-two {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    padding: 100px 400px 32px;
+}
+
+.quoter {
+    font-weight: bold;
+    align-self: flex-end;
+    padding: 32px 400px 100px;
+}
+
+.section-three {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 300px 100px;
+}
+
+.action {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    padding: 64px;
+    background-color: #3882F6;
+    color: white;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+
+.action button{
+    border-color: #E5E7EB;
+    border-style: solid ;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer p {
+    color: white;
+}
